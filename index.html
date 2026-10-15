@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manimohana M | CSE Student & Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Manimohana M, Computer Science and Engineering student at Government College of Technology.">
+<style>
+:root{
+  --bg:#f3f6fb; --surface:#ffffff; --ink:#14213d; --muted:#55627d;
+  --line:#d5dcea; --accent:#1d4ed8; --accent-ink:#ffffff; --code:#e8eefc;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0e1626;--surface:#16213a;--ink:#e8eefc;--muted:#9fb0d0;--line:#27365a;--accent:#7aa2ff;--accent-ink:#0e1626;--code:#1b2a4b}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;line-height:1.6}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+nav strong{font-size:1.05rem}
+nav ul{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{text-decoration:none;color:var(--muted);font-weight:500}
+nav ul a:hover{color:var(--accent)}
+header.hero{padding:72px 0 48px}
+.hero h1{font-size:clamp(2.2rem,7vw,3.8rem);line-height:1.08;margin:0 0 14px;letter-spacing:-.02em}
+.hero p.role{font-size:1.2rem;color:var(--muted);margin:0 0 20px}
+.hero p.about{max-width:62ch;margin:0 0 26px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:600;border:2px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+section{padding:40px 0;border-top:1px solid var(--line)}
+section h2{font-size:1.6rem;margin:0 0 18px}
+.edu-item{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:12px}
+.edu-item h3{margin:0 0 2px;font-size:1.1rem}
+.edu-item p{margin:0;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0}
+.chips li{background:var(--code);border-radius:8px;padding:8px 16px;font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+@media (max-width:640px){.two{grid-template-columns:1fr}}
+ul.plain{margin:0;padding-left:20px}
+ul.plain li{margin-bottom:6px}
+.contact a{font-weight:600}
+footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <strong>Manimohana M</strong>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#goal">Goal</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <header class="hero" id="about">
+    <h1>Hi, I'm Manimohana M</h1>
+    <p class="role">Computer Science Engineering student and aspiring IT professional</p>
+    <p class="about">I'm a 2nd-year Computer Science and Engineering student at Government College of Technology. I enjoy programming, software development and learning new technologies.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:manimohana2008@gmail.com">Email me</a>
+      <a class="btn ghost" href="#skills">See my skills</a>
+    </div>
+  </header>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>Government College of Technology</h3>
+      <p>Bachelor of Engineering, Computer Science and Engineering</p>
+      <p>2025 – 2029</p>
+    </div>
+    <div class="edu-item">
+      <h3>RVS Bharath Matriculation Higher Secondary School</h3>
+      <p>Higher secondary education</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical skills</h2>
+    <ul class="chips">
+      <li>C</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>Data Structures</li>
+      <li>MongoDB</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="two">
+      <div>
+        <h2>Certifications</h2>
+        <ul class="plain">
+          <li>MongoDB Certification</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Interests</h2>
+        <ul class="plain">
+          <li>Software development</li>
+          <li>Data structures and algorithms</li>
+          <li>Programming</li>
+          <li>Database management</li>
+          <li>Exploring new technologies</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="goal">
+    <h2>Career goal</h2>
+    <p>To build strong technical skills, gain practical experience, and grow into a skilled IT professional and software developer.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:manimohana2008@gmail.com">manimohana2008@gmail.com</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">Always learning, always building, always improving.</div>
+</footer>
+
+</body>
+</html>
